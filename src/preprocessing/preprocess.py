@@ -1,3 +1,5 @@
+print("Preprocessing script is starting...")
+
 import pandas as pd
 import os
 
