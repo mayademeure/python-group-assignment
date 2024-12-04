@@ -25,3 +25,5 @@ def clean_data():
     data.to_csv('data/processed/cleaned_data.csv', index=False)
     print("Data cleaned and saved to data/processed/cleaned_data.csv")
 
+if __name__ == "__main__":
+    clean_data()
